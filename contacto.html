@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/02a110e7db.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    
+</style>
+<body>
+    <header class="navbar">
+        <div class="max-width slideDown">
+            <a href="index.html">
+                <div class="logo">
+                    <img id="logo" src="./resourses/new rc/Logo_png_new.png" alt="">
+                </div>
+            </a>
+            <ul class="menu">
+                <li><a href="about.html" class="menu-btn">SOBRE MI</a></li>
+                <li><a href="services.html" class="menu-btn">SERVICIOS</a></li>
+                <li><a href="galeria.html" class="menu-btn">GALERIA</a></li>
+                <li><a href="https://www.instagram.com/" class="menu-btn">
+                    <div class="cont-social-instagram" #insta>
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </a></li>
+                <li><a href="https://www.youtube.com/" class="menu-btn">
+                    <div class="cont-social-youtube" #insta>
+                        <i class="fa-brands fa-youtube fa-lg"></i>
+                    </div>
+                </a></li>
+                <li><a href="#">IDIOMAS
+                    <ul>
+                        <li>CATALAN</li>
+                        <li>ESPAÑOL</li>
+                    </ul>
+                </a></li>
+                <li><a href="contacto.html" class="menu-btn">CONTACTO</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="home contact" id="home">
+            <!-- No content -->
+        </section>
+
+        <section class="content-contact">
+            <div class="max-width">
+                <div class="cont-text">
+                    <h1>Contacta amb nosaltres</h1>
+                    <h1>Tens algun dubte? Ben aviat et respondrem!</h1>
+                </div>
+                <div class="cont-form">
+                    <form action="https://formsubmit.co/correo@ejemplo.com" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required name="name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required name="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required name="subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="comments"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <span>Hola mundo</span>
+        </div>
+    </footer>
+
+    <script src="js/menuActive.js"></script>
+
+</body>
+</html>
